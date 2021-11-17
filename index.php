@@ -33,7 +33,7 @@ class index
         if ($this->env == 'livehost') {
             $this->SwitchURL = $this->url[5];
         } else {
-            $this->SwitchURL = $this->url[4];
+            $this->SwitchURL = $this->url[5];
         }
 
         $this->route();
