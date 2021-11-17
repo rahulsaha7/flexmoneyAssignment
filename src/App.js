@@ -13,6 +13,7 @@ import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Home from "./components/Home/Home";
 import BannerCom from "./components/Banner/Banner";
+import Error from "./components/Error/Error";
 
 //Material ui items
 import { Grid, Paper } from "@material-ui/core";
@@ -141,6 +142,8 @@ function App() {
                     )
                   }
                 />
+
+                <Route exact path="*" element={<Error />} />
               </Routes>
 
               {/* When Register button will be clicked, register module will be shown */}
