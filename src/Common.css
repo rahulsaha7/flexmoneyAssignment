@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100% !important;
+}
+.headerLogo {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.MuiPaper-elevation1 {
+  width: 100% !important;
+  margin-bottom: 5px;
+}
+
+.MuiPaper-elevation8 {
+  width: auto !important;
+}

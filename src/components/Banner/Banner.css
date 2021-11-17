@@ -1,0 +1,10 @@
+.bannerDetails {
+  display: flex !important;
+  flex-direction: column !important;
+  margin-bottom: 10px !important;
+}
+
+.cardMedia {
+  height: 200px;
+  width: 700px;
+}

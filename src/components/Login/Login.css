@@ -1,0 +1,20 @@
+.formInputHolders {
+  padding-bottom: 15px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .formInputHolders {
+    width: 80% !important;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .formInputHolders {
+    width: 45% !important;
+  }
+}
+
+label {
+  padding-left: 20px !important;
+}
