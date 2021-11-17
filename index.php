@@ -22,7 +22,7 @@ class index
     public function __construct()
     {
 
-        echo DB_HOST;
+
         $this->url = baseURL();
         $this->env = 'development';
 
